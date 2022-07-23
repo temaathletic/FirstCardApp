@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846D5782288C1A6B00A95444 /* CardApp_TtryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D5781288C1A6B00A95444 /* CardApp_TtryApp.swift */; };
+		846D5784288C1A6B00A95444 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D5783288C1A6B00A95444 /* ContentView.swift */; };
+		846D5786288C1A6D00A95444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846D5785288C1A6D00A95444 /* Assets.xcassets */; };
+		846D5789288C1A6D00A95444 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846D5788288C1A6D00A95444 /* Preview Assets.xcassets */; };
+		846D5793288C1A6D00A95444 /* CardApp_TtryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D5792288C1A6D00A95444 /* CardApp_TtryTests.swift */; };
+		846D579D288C1A6D00A95444 /* CardApp_TtryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D579C288C1A6D00A95444 /* CardApp_TtryUITests.swift */; };
+		846D579F288C1A6D00A95444 /* CardApp_TtryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D579E288C1A6D00A95444 /* CardApp_TtryUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846D578F288C1A6D00A95444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846D5776288C1A6B00A95444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846D577D288C1A6B00A95444;
+			remoteInfo = "CardApp Ttry";
+		};
+		846D5799288C1A6D00A95444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846D5776288C1A6B00A95444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846D577D288C1A6B00A95444;
+			remoteInfo = "CardApp Ttry";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846D577E288C1A6B00A95444 /* CardApp Ttry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CardApp Ttry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846D5781288C1A6B00A95444 /* CardApp_TtryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardApp_TtryApp.swift; sourceTree = "<group>"; };
+		846D5783288C1A6B00A95444 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		846D5785288C1A6D00A95444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846D5788288C1A6D00A95444 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		846D578E288C1A6D00A95444 /* CardApp TtryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CardApp TtryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846D5792288C1A6D00A95444 /* CardApp_TtryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardApp_TtryTests.swift; sourceTree = "<group>"; };
+		846D5798288C1A6D00A95444 /* CardApp TtryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CardApp TtryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846D579C288C1A6D00A95444 /* CardApp_TtryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardApp_TtryUITests.swift; sourceTree = "<group>"; };
+		846D579E288C1A6D00A95444 /* CardApp_TtryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardApp_TtryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846D577B288C1A6B00A95444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846D578B288C1A6D00A95444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846D5795288C1A6D00A95444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846D5775288C1A6B00A95444 = {
+			isa = PBXGroup;
+			children = (
+				846D5780288C1A6B00A95444 /* CardApp Ttry */,
+				846D5791288C1A6D00A95444 /* CardApp TtryTests */,
+				846D579B288C1A6D00A95444 /* CardApp TtryUITests */,
+				846D577F288C1A6B00A95444 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846D577F288C1A6B00A95444 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846D577E288C1A6B00A95444 /* CardApp Ttry.app */,
+				846D578E288C1A6D00A95444 /* CardApp TtryTests.xctest */,
+				846D5798288C1A6D00A95444 /* CardApp TtryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846D5780288C1A6B00A95444 /* CardApp Ttry */ = {
+			isa = PBXGroup;
+			children = (
+				846D5781288C1A6B00A95444 /* CardApp_TtryApp.swift */,
+				846D5783288C1A6B00A95444 /* ContentView.swift */,
+				846D5785288C1A6D00A95444 /* Assets.xcassets */,
+				846D5787288C1A6D00A95444 /* Preview Content */,
+			);
+			path = "CardApp Ttry";
+			sourceTree = "<group>";
+		};
+		846D5787288C1A6D00A95444 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				846D5788288C1A6D00A95444 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		846D5791288C1A6D00A95444 /* CardApp TtryTests */ = {
+			isa = PBXGroup;
+			children = (
+				846D5792288C1A6D00A95444 /* CardApp_TtryTests.swift */,
+			);
+			path = "CardApp TtryTests";
+			sourceTree = "<group>";
+		};
+		846D579B288C1A6D00A95444 /* CardApp TtryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846D579C288C1A6D00A95444 /* CardApp_TtryUITests.swift */,
+				846D579E288C1A6D00A95444 /* CardApp_TtryUITestsLaunchTests.swift */,
+			);
+			path = "CardApp TtryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846D577D288C1A6B00A95444 /* CardApp Ttry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846D57A2288C1A6D00A95444 /* Build configuration list for PBXNativeTarget "CardApp Ttry" */;
+			buildPhases = (
+				846D577A288C1A6B00A95444 /* Sources */,
+				846D577B288C1A6B00A95444 /* Frameworks */,
+				846D577C288C1A6B00A95444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CardApp Ttry";
+			productName = "CardApp Ttry";
+			productReference = 846D577E288C1A6B00A95444 /* CardApp Ttry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846D578D288C1A6D00A95444 /* CardApp TtryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846D57A5288C1A6D00A95444 /* Build configuration list for PBXNativeTarget "CardApp TtryTests" */;
+			buildPhases = (
+				846D578A288C1A6D00A95444 /* Sources */,
+				846D578B288C1A6D00A95444 /* Frameworks */,
+				846D578C288C1A6D00A95444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846D5790288C1A6D00A95444 /* PBXTargetDependency */,
+			);
+			name = "CardApp TtryTests";
+			productName = "CardApp TtryTests";
+			productReference = 846D578E288C1A6D00A95444 /* CardApp TtryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846D5797288C1A6D00A95444 /* CardApp TtryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846D57A8288C1A6D00A95444 /* Build configuration list for PBXNativeTarget "CardApp TtryUITests" */;
+			buildPhases = (
+				846D5794288C1A6D00A95444 /* Sources */,
+				846D5795288C1A6D00A95444 /* Frameworks */,
+				846D5796288C1A6D00A95444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846D579A288C1A6D00A95444 /* PBXTargetDependency */,
+			);
+			name = "CardApp TtryUITests";
+			productName = "CardApp TtryUITests";
+			productReference = 846D5798288C1A6D00A95444 /* CardApp TtryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846D5776288C1A6B00A95444 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					846D577D288C1A6B00A95444 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					846D578D288C1A6D00A95444 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 846D577D288C1A6B00A95444;
+					};
+					846D5797288C1A6D00A95444 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 846D577D288C1A6B00A95444;
+					};
+				};
+			};
+			buildConfigurationList = 846D5779288C1A6B00A95444 /* Build configuration list for PBXProject "CardApp Ttry" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846D5775288C1A6B00A95444;
+			productRefGroup = 846D577F288C1A6B00A95444 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846D577D288C1A6B00A95444 /* CardApp Ttry */,
+				846D578D288C1A6D00A95444 /* CardApp TtryTests */,
+				846D5797288C1A6D00A95444 /* CardApp TtryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846D577C288C1A6B00A95444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846D5789288C1A6D00A95444 /* Preview Assets.xcassets in Resources */,
+				846D5786288C1A6D00A95444 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846D578C288C1A6D00A95444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846D5796288C1A6D00A95444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846D577A288C1A6B00A95444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846D5784288C1A6B00A95444 /* ContentView.swift in Sources */,
+				846D5782288C1A6B00A95444 /* CardApp_TtryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846D578A288C1A6D00A95444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846D5793288C1A6D00A95444 /* CardApp_TtryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846D5794288C1A6D00A95444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846D579D288C1A6D00A95444 /* CardApp_TtryUITests.swift in Sources */,
+				846D579F288C1A6D00A95444 /* CardApp_TtryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846D5790288C1A6D00A95444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846D577D288C1A6B00A95444 /* CardApp Ttry */;
+			targetProxy = 846D578F288C1A6D00A95444 /* PBXContainerItemProxy */;
+		};
+		846D579A288C1A6D00A95444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846D577D288C1A6B00A95444 /* CardApp Ttry */;
+			targetProxy = 846D5799288C1A6D00A95444 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		846D57A0288C1A6D00A95444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846D57A1288C1A6D00A95444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846D57A3288C1A6D00A95444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CardApp Ttry/Preview Content\"";
+				DEVELOPMENT_TEAM = A49A429DN2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "temaathletic-group.CardApp-Ttry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846D57A4288C1A6D00A95444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CardApp Ttry/Preview Content\"";
+				DEVELOPMENT_TEAM = A49A429DN2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "temaathletic-group.CardApp-Ttry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		846D57A6288C1A6D00A95444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A49A429DN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "temaathletic-group.CardApp-TtryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardApp Ttry.app/CardApp Ttry";
+			};
+			name = Debug;
+		};
+		846D57A7288C1A6D00A95444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A49A429DN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "temaathletic-group.CardApp-TtryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardApp Ttry.app/CardApp Ttry";
+			};
+			name = Release;
+		};
+		846D57A9288C1A6D00A95444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A49A429DN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "temaathletic-group.CardApp-TtryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CardApp Ttry";
+			};
+			name = Debug;
+		};
+		846D57AA288C1A6D00A95444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A49A429DN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "temaathletic-group.CardApp-TtryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CardApp Ttry";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846D5779288C1A6B00A95444 /* Build configuration list for PBXProject "CardApp Ttry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846D57A0288C1A6D00A95444 /* Debug */,
+				846D57A1288C1A6D00A95444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846D57A2288C1A6D00A95444 /* Build configuration list for PBXNativeTarget "CardApp Ttry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846D57A3288C1A6D00A95444 /* Debug */,
+				846D57A4288C1A6D00A95444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846D57A5288C1A6D00A95444 /* Build configuration list for PBXNativeTarget "CardApp TtryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846D57A6288C1A6D00A95444 /* Debug */,
+				846D57A7288C1A6D00A95444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846D57A8288C1A6D00A95444 /* Build configuration list for PBXNativeTarget "CardApp TtryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846D57A9288C1A6D00A95444 /* Debug */,
+				846D57AA288C1A6D00A95444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846D5776288C1A6B00A95444 /* Project object */;
+}
